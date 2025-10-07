@@ -8,8 +8,7 @@ const fbRoutes = require('./modules/fbdown/routes/fbRoutes');
 // Halaman utama untuk memastikan server berjalan
 app.get('/', (req, res) => {
     res.json({
-        status: "Aktif",
-        message: "Selamat Datang di Multi Downloader API!"
+        status: "Ok",
     });
 });
 
